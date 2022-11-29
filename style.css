@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.heading{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+   font-style: italic;
+   background-color: gray;
+}
+
+#cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color:rgb(160, 248, 225);
+}
+
+.card{
+    width: 45%;
+    box-shadow: 0 0 4px 3px rgb(34, 177, 182);
+    text-align: center;
+    padding: 1.5em;
+    margin-bottom: 2.5em;
+    background-color: rgba(228, 196, 156, 0.911);
+}
+.img{
+    width: 60%; 
+} 
+
+ .title{
+    font-weight: bolder;
+        font-size: 1.5em;
+        color: rgb(112, 28, 13);
+}
+.name{
+    font-style: italic;
+    color: rgb(6, 12, 0);
+
+}
+.plink{
+        width: 30%;
+        color: rgb(65, 23, 219);
+}.price{
+    font-weight: bold;
+        text-transform: capitalize;
+        margin: 1em;
+        font-size: 1.2rem;
+        color: rgb(16, 123, 34);
+
+}.description{
+     text-align: justify;
+     justify-content: space-around;
+}
+
+.txt{
+    width: 60%;
+    display: justify;
+    text-align: center;
+
+}
+.search{
+    text-align: center;
+    columns: 30rem;
+}
